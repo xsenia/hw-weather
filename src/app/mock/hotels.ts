@@ -21,7 +21,7 @@ export interface IHotel {
     {
         img: 'assets/img/city-01.jpg',
         address: 'Москва',
-        phone:  343-22-33, 
+        phone:  3432233, 
         weather: {
            title: 'тайтл погоды',
            icon: 'assets/img/city-01.jpg',
@@ -39,7 +39,7 @@ export interface IHotel {
     {
         img: 'assets/img/city-02.jpg',
         address: 'Воронеж',
-        phone:  22-11-30, 
+        phone:  221130, 
         weather: {
            title: 'тайтл погоды 2',
            icon: 'assets/img/city-02.jpg',
