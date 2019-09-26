@@ -3,17 +3,13 @@ import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
 import { SharedModule } from './shared/shared.module';
-import { SidenavComponent } from './sidenav/sidenav.component';
-import { ProductCardComponent } from './product-card/product-card.component';
+import { HotelsTabsComponent } from './hotels-tabs/hotels-tabs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    SidenavComponent,
-    ProductCardComponent
+    HotelsTabsComponent
   ],
   imports: [
     BrowserModule,

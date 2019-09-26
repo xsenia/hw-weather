@@ -1,6 +1,3 @@
-import { Observable, of } from 'rxjs';
-import { delay } from 'rxjs/operators';
-
 export interface IProduct {
   title: string;
   img: string;
@@ -74,9 +71,3 @@ export const products: IProduct[] = [
     isFavorite: true
   }
 ];
-
-
-// export const products$: Observable<IProduct[]> = of(products)
-//   .pipe(
-//     delay(3000)
-//   );
