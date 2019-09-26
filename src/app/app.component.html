@@ -1,0 +1,16 @@
+<app-header [title]="title.text" [drawer]="drawer"></app-header>
+<app-sidenav (setSidenavControl)="setSideNav($event)">
+    
+    <ng-template #content>  
+        
+        <mat-grid-list cols="4" rowHeight="500">
+            <mat-grid-tile *ngFor="let product of products; index as i">
+
+               <app-product-card [product]="product"></app-product-card>
+
+            </mat-grid-tile>
+        </mat-grid-list>
+
+    </ng-template>
+
+</app-sidenav>
