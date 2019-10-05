@@ -4,12 +4,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
-import { HotelsTabsComponent } from './hotels-tabs/hotels-tabs.component';
+import { PlacesComponent } from './places/places.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HotelsTabsComponent
+    PlacesComponent
   ],
   imports: [
     BrowserModule,

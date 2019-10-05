@@ -1,0 +1,9 @@
+.menu__btn {
+    margin-right: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    background: blue;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
