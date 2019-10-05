@@ -1,12 +1,14 @@
-
 <!-- menu -->
 <div class="menu">
-    <div (click)="setCurrentType($event)" *ngFor = "let place of places" class="menu__btn" [attr.data-type]="place.type">
-        {{place.type}}
+    <div 
+        (click)="setCurrentType($event)" 
+        *ngFor = "let place of places | menu" class="menu__btn" 
+        [attr.data-type]="place"
+    >
+        {{place}}
     </div>
 </div>
 <!-- //menu -->
-
 
 <!-- cards -->
 <div class="cards"  *ngFor="let place of places; index as i">

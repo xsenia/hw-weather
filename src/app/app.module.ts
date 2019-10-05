@@ -5,11 +5,13 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { PlacesComponent } from './places/places.component';
+import { MenuPipe } from './places/menu.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PlacesComponent
+    PlacesComponent,
+    MenuPipe
   ],
   imports: [
     BrowserModule,
