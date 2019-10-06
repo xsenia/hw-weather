@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { PlacesComponent } from './places/places.component';
 import { MenuPipe } from './places/menu.pipe';
+import { SocialComponent } from './social/social.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PlacesComponent,
-    MenuPipe
+    MenuPipe,
+    SocialComponent
   ],
   imports: [
     BrowserModule,

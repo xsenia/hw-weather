@@ -89,6 +89,42 @@ export interface IPlace {
          following: 33
       }, 
       type: 'Отели'
-   }
+   },
+   {
+       img: 'assets/img/city-03.jpg',
+       address: 'Волга',
+       phone:  221130, 
+       weather: {
+          title: 'тайтл погоды 3',
+          icon: 'assets/img/city-03.jpg',
+          water: 13,
+          temperature: 12
+       },
+       social_info:{ 
+          title: 'тайтл соцсети 3',
+          img: 'assets/img/city-03.jpg',
+          followers: 202,
+          following: 133
+       }, 
+       type: 'Рыбалка'
+   },
+   {
+     img: 'assets/img/city-01.jpg',
+     address: 'Москва',
+     phone:  3432233, 
+     weather: {
+        title: 'тайтл погоды',
+        icon: 'assets/img/city-01.jpg',
+        water: 23,
+        temperature: 32
+     },
+     social_info:{ 
+        title: 'тайтл соцсети',
+        img: 'assets/img/city-01.jpg',
+        followers: 22,
+        following: 33
+     }, 
+     type: 'Отели'
+  }
  ];
  

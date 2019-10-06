@@ -8,7 +8,12 @@ import { places, IPlace } from './mock/places';
 })
 export class AppComponent {  
 
-  public places: IPlace[] = places;  
+  public places: IPlace[] = places; 
+  public currentType: any; 
+
+  public setCurrentType(placeType: IPlace) {
+    this.currentType = placeType;
+  }
 
     
 }

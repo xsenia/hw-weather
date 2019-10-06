@@ -11,7 +11,7 @@
 <!-- //menu -->
 
 <!-- cards -->
-<div class="cards"  *ngFor="let place of places; index as i">
+<div class="cards"  *ngFor="let place of places">
     <mat-card *ngIf="place.type === placeType" class="place-card">                
         <mat-card-header>
             <mat-card-title>{{place.address}}</mat-card-title>
