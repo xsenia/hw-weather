@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit, OnChanges } from '@angular/core';
 import { IPlace } from '../mock/places';
 
 @Component({
@@ -6,8 +6,24 @@ import { IPlace } from '../mock/places';
   templateUrl: './social.component.html',
   styleUrls: ['./social.component.css']
 })
-export class SocialComponent {
+export class SocialComponent implements OnInit, OnChanges {
 
   @Input() places!: IPlace;
+  @Input() currentType: any;
+  
+
+  ngOnChanges() {
+    console.log(this.currentType);       
+  }
+
+  ngOnInit() {
+    
+  }
+
+  
+
+  
+
+  
 
 }

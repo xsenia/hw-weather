@@ -15,7 +15,7 @@ export class PlacesComponent implements OnInit {
 
   public setCurrentType(event: any): void {
     this.placeType = event.target.dataset.type;
-    this.typeSelected.emit(this.placeType);
+    this.typeSelected.emit(event.target);
   }
 
   ngOnInit() {
