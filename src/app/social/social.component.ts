@@ -9,15 +9,15 @@ import { IPlace } from '../mock/places';
 export class SocialComponent implements OnInit, OnChanges {
 
   @Input() places!: IPlace;
-  @Input() currentType: any;
+  @Input() currentCard!: IPlace;
   
 
   ngOnChanges() {
-    console.log(this.currentType);       
+    console.log(this.currentCard);       
   }
 
   ngOnInit() {
-    
+    this.currentCard = '';
   }
 
   

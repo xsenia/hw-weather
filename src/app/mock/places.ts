@@ -21,7 +21,7 @@ export interface IPlace {
     {
         img: 'assets/img/city-01.jpg',
         address: 'Москва',
-        phone:  3432233, 
+        phone:  34534567, 
         weather: {
            title: 'тайтл погоды',
            icon: 'assets/img/city-01.jpg',
@@ -39,7 +39,7 @@ export interface IPlace {
     {
         img: 'assets/img/city-02.jpg',
         address: 'Воронеж',
-        phone:  221130, 
+        phone:  48264986, 
         weather: {
            title: 'тайтл погоды 2',
            icon: 'assets/img/city-02.jpg',
@@ -57,7 +57,7 @@ export interface IPlace {
     {
         img: 'assets/img/city-03.jpg',
         address: 'Волга',
-        phone:  221130, 
+        phone:  375606783, 
         weather: {
            title: 'тайтл погоды 3',
            icon: 'assets/img/city-03.jpg',
@@ -75,7 +75,7 @@ export interface IPlace {
     {
       img: 'assets/img/city-01.jpg',
       address: 'Москва',
-      phone:  3432233, 
+      phone:  264985673, 
       weather: {
          title: 'тайтл погоды',
          icon: 'assets/img/city-01.jpg',
@@ -93,7 +93,7 @@ export interface IPlace {
    {
        img: 'assets/img/city-03.jpg',
        address: 'Волга',
-       phone:  221130, 
+       phone:  217485667, 
        weather: {
           title: 'тайтл погоды 3',
           icon: 'assets/img/city-03.jpg',
@@ -111,7 +111,7 @@ export interface IPlace {
    {
      img: 'assets/img/city-01.jpg',
      address: 'Москва',
-     phone:  3432233, 
+     phone:  48562, 
      weather: {
         title: 'тайтл погоды',
         icon: 'assets/img/city-01.jpg',

@@ -1,9 +1,15 @@
 <h1>Отдых. {{currentType!}}</h1>
 <div class="grid">
     <div class="grid-col">        
-        <app-places [places]="places" (typeSelected)="getCurrentType($event)"></app-places>
+        <app-places 
+            [places]="places" 
+            (typeSelected)="getCurrentType($event)" 
+            (currentCard)="getCard($event)"
+        ></app-places>
     </div>
     <div class="grid-col">        
-        <app-social [places]="places" [currentType]="currentType"></app-social>       
+        <app-social            
+            [currentCard]="currentCard"
+        ></app-social>       
     </div>
 </div>

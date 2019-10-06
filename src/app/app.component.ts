@@ -10,9 +10,15 @@ export class AppComponent {
 
   public places: IPlace[] = places; 
   public currentType: IPlace[]; 
+  public currentCard:  IPlace[];
 
   public getCurrentType(placeType: IPlace) {
     this.currentType = placeType;
+  }
+
+  public getCard(card: IPlace) {
+    console.log('card ',card);
+    this.currentCard = card;
   }
 
     
