@@ -8,7 +8,7 @@ import { IPlace } from "../mock/places"
 })
 export class PlacesComponent implements OnInit {
 
-  @Input() places: IPlace;
+  @Input() places: any;
   @Output() typeSelected: EventEmitter<any> = new EventEmitter();
   @Output() currentCard: EventEmitter<any> = new EventEmitter();
 
@@ -21,7 +21,7 @@ export class PlacesComponent implements OnInit {
 
   public getCard(event: any) {    
     let target = event.target;
-    let targetId = target.closest('.cards').getAttribute('id'); 
+    let targetId: any = target.closest('.cards').getAttribute('id'); 
     let currentCard = this.places[targetId];
     this.currentCard.emit(currentCard);
   }

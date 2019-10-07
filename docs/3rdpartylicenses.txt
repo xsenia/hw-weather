@@ -87,7 +87,9 @@ THE SOFTWARE.
 
 @angular/material/card
 
-@angular/material/tabs
+@angular/material/core
+
+@angular/material/list
 
 @angular/platform-browser
 MIT
