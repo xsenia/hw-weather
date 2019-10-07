@@ -10,7 +10,7 @@ export class PlacesComponent implements OnInit {
 
   @Input() places: any;
   @Output() typeSelected: EventEmitter<any> = new EventEmitter();
-  @Output() currentCard: EventEmitter<any> = new EventEmitter();
+  @Output() getCurrentCard: EventEmitter<any> = new EventEmitter();
 
   public placeType: string = '';
 
@@ -23,7 +23,7 @@ export class PlacesComponent implements OnInit {
     let target = event.target;
     let targetId: any = target.closest('.cards').getAttribute('id'); 
     let currentCard = this.places[targetId];
-    this.currentCard.emit(currentCard);
+    this.getCurrentCard.emit(currentCard);
   }
 
   ngOnInit() {

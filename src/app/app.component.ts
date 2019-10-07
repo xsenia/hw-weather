@@ -10,7 +10,9 @@ export class AppComponent {
 
   public places: IPlace[] = places; 
   public currentType: IPlace[]; 
-  public currentCard:  any;
+  public currentCard: any;
+
+  
 
   public getCurrentType(placeType: any) {
     this.currentType = placeType;
@@ -19,6 +21,10 @@ export class AppComponent {
   public getCard(card: any) {
     console.log('card ',card);
     this.currentCard = card;
+  }
+
+  ngOnInit() {
+    console.log('places', this.places);
   }
 
     

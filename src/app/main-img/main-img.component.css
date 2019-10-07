@@ -1,0 +1,7 @@
+.mat-card {
+    padding-bottom: 0;
+}
+.mat-card-image {
+    margin-bottom: -10px;
+    max-width: 100px;
+}

@@ -7,13 +7,15 @@ import { SharedModule } from './shared/shared.module';
 import { PlacesComponent } from './places/places.component';
 import { MenuPipe } from './places/menu.pipe';
 import { SocialComponent } from './social/social.component';
+import { MainImgComponent } from './main-img/main-img.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PlacesComponent,
     MenuPipe,
-    SocialComponent
+    SocialComponent,
+    MainImgComponent
   ],
   imports: [
     BrowserModule,

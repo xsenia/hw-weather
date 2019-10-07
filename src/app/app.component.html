@@ -1,10 +1,12 @@
 <h1>Отдых. {{currentType!}}</h1>
+<app-main-img [currentCard]="currentCard"></app-main-img>
+
 <div class="grid">
     <div class="grid-col">        
         <app-places 
             [places]="places" 
             (typeSelected)="getCurrentType($event)" 
-            (currentCard)="getCard($event)"
+            (getCurrentCard)="getCard($event)"
         ></app-places>
     </div>
     <div class="grid-col">        
