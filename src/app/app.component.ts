@@ -19,7 +19,7 @@ export class AppComponent {
   }
 
   public getCard(card: any) {
-    console.log('card ',card);
+    //console.log('card ',card);
     this.currentCard = card;
   }
 
