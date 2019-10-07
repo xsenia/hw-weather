@@ -9,7 +9,7 @@ import { IPlace } from '../mock/places';
 export class SocialComponent implements OnInit, OnChanges {
 
   @Input() places!: IPlace;
-  @Input() currentCard!: IPlace;
+  @Input() currentCard!: any;
   
 
   ngOnChanges() {
